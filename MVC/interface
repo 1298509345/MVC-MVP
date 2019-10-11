@@ -1,0 +1,4 @@
+public interface OnRequestListener {
+    void onSuccess(List<String> data);
+    void onFailed();
+}
